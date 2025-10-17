@@ -18,7 +18,6 @@
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
-				"lldb.executable": "/usr/bin/lldb",
 				// VS Code don't watch files under ./target
 				"files.watcherExclude": {
 					"**/target/**": true
@@ -28,10 +27,7 @@
 
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"vadimcn.vscode-lldb",
-				"mutantdino.resourcemonitor",
-				"tamasfe.even-better-toml",
-				"serayuzgur.crates"
+				"golang.go"
 			]
 		}
 	},
